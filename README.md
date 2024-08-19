@@ -9,7 +9,7 @@ Clone the project repository to your local machine:
 
 ```bash
 git clone https://github.com/skar-software/svelte-blogger.git
-cd skar-software
+cd svelte-blogger
 ```
 
 ### 2. Install Dependencies
