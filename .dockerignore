@@ -1,0 +1,8 @@
+passphrase.txt
+logs/
+node_modules/
+.svelte-kit/
+package-lock.json
+.git
+*.md
+.cache
