@@ -1,4 +1,4 @@
-# svelte-blogger
+# Svelte Blogger
 ## Blogging site built with Svelte
 
 ## Getting Started
