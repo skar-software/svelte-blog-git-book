@@ -1,7 +1,29 @@
 # Svelte Blogger
 ## Blogging site built with Svelte
 
-## Getting Started
+## Running the Server in Local using Docker Images
+
+Pull docker image from Docker Hub
+```
+docker pull durgeshmzp/blogger
+```
+
+Start the docker server at localhost:4173
+```
+docker run --name blogger -d -p 4173:4173 durgeshmzp/blogger
+```
+
+## Features
+-	Article Listing: View a list of all available blog posts.
+- Category Filtering: Easily filter articles by category to find the content you’re interested in
+
+## Screenshots
+
+1. Article Listing Page
+2. Category Filtering
+3. Article Publishing
+
+## Getting Started with Installation
 
 ### 1. Clone the Repository
 
