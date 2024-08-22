@@ -5,12 +5,12 @@
 
 Pull docker image from Docker Hub
 ```
-docker pull durgeshmzp/blogger
+docker pull anonranger/svelte-blogger
 ```
 
-Start the docker server at [localhost:4173](http://localhost:4173)
+Start the docker server at [localhost:3000](http://localhost:3000)
 ```
-docker run --name blogger -d -p 4173:4173 durgeshmzp/blogger
+docker run --name blogger -d -p 3000:4173 anonranger/svelte-blogger
 ```
 
 ## Features
