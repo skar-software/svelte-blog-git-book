@@ -92,7 +92,13 @@
   /* Mobile Styles */
   @media (max-width: 600px) {
     .blog {
+      max-width: 100%;
+      width: 100%;
       padding: 4px; /* Reduced padding on smaller screens */
+    }
+
+    .blog-image {
+      width: 100%; /* Make blog image full width */
     }
 
     .blog-title {

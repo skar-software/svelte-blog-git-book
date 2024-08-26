@@ -28,10 +28,17 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .tab-list::-webkit-scrollbar {
+    display: none;
   }
 
   .tab-item {
     margin-right: 10px;
+    flex-shrink: 0; /* Prevent items from shrinking */
   }
 
   .tab-item:last-child {
@@ -55,5 +62,12 @@
   .tab-item button:not(.active) {
     background-color: #f0f0f0; /* Active item background color */
     color: black; /* Active item text color */
+  }
+
+  /* Mobile Styles */
+  @media (max-width: 600) {
+    .tab-list {
+      overflow-x: auto;
+    }
   }
 </style>
