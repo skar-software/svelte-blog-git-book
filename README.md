@@ -17,7 +17,23 @@ docker run --name blogger -d -p 3000:4173 anonranger/svelte-blogger
 -	Article Listing: View a list of all available blog posts.
 - Category Filtering: Easily filter articles by category to find the content you’re interested in
 
-## Usage (Screenshots for references)
+## Documentation of Folder structure - Guidance on where to add content
+
+static/blogs/content
+
+static/blogs/images
+
+src/api
+
+src/components
+
+src/routes
+
+src/shared
+
+src/stores
+
+## Screenshots for references
 
 1. Article Listing Page
 <img width="1593" alt="Screenshot 2024-08-21 at 11 47 02 PM" src="https://github.com/user-attachments/assets/64f92f01-ecb7-4637-bb37-67f5a3c33b71">
