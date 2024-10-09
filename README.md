@@ -19,19 +19,19 @@ docker run --name blogger -d -p 3000:4173 anonranger/svelte-blogger
 
 ## Documentation of Folder structure - Guidance on where to add content
 
-static/blogs/content
+static/blogs/content - user need to add markdown content
 
-static/blogs/images
+static/blogs/images - user need to add images
 
-src/api
+src/api - static site rendering
 
-src/components
+src/components - Svelte components that render unique UI
 
-src/routes
+src/routes - Mapping of route and components
 
-src/shared
+src/shared - common libraries
 
-src/stores
+src/stores - datastore of blog articles
 
 ## Screenshots for references
 
