@@ -20,9 +20,9 @@ docker run --name blogger -d -p 3000:4173 anonranger/svelte-blogger
 
 **<ins>User Managed Content</ins>**
 
-**static/content_images/content** - user need to add markdown content
+**static/content_images/content** - user to add markdown content
 
-**static/content_images/images** - user need to add images
+**static/content_images/images** - user to add images
 
 **src/stores** - user to manage the mapping of content
 
