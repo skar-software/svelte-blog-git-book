@@ -1,5 +1,8 @@
-# Svelte Blogger
-## Blogging site built with Svelte
+# Svelte Blog and Gitbook
+
+Use the project to deploy a blog or git book like documentation component in your website.
+
+
 
 ## Running the Server in Local using Docker Images
 
@@ -13,19 +16,17 @@ Start the docker server at [localhost:3000](http://localhost:3000)
 docker run --name blogger -d -p 3000:4173 anonranger/svelte-blogger
 ```
 
-## Features
--	Article Listing: View a list of all available blog posts.
-- Category Filtering: Easily filter articles by category to find the content you’re interested in
-
 ## Documentation of Folder structure - Guidance on where to add content
 
-static/blogs/content - user need to add markdown content
+**User Managed Content**
 
-static/blogs/content  rename as static/content_images/content 
+**static/content_images/content** - user need to add markdown content
 
-static/blogs/images - user need to add images
+**static/content_images/images** - user need to add images
 
-static/blogs/images  rename as static/content_images/images
+**src/stores** - user to manage the mapping of content
+
+**System Files**
 
 src/api - static site rendering
 
@@ -35,9 +36,9 @@ src/routes - Mapping of route and components
 
 src/shared - common libraries
 
-src/stores - datastore of blog articles
 
-## Screenshots for references
+
+## Blog Screenshots 
 
 1. Article Listing Page
 <img width="1593" alt="Screenshot 2024-08-21 at 11 47 02 PM" src="https://github.com/user-attachments/assets/64f92f01-ecb7-4637-bb37-67f5a3c33b71">
@@ -48,6 +49,8 @@ src/stores - datastore of blog articles
 
 3. Article Publishing
 <img width="1439" alt="Screenshot 2024-08-21 at 11 55 26 PM" src="https://github.com/user-attachments/assets/e25b6f36-889c-4bc9-92f0-c0835c497c31">
+
+## Git Book like Documentation Screenshots 
 
 ## Getting Started with Installation
 
