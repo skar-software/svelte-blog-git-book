@@ -40,14 +40,11 @@ src/shared - common libraries
 
 ## Blog Screenshots 
 
-1. Article Listing Page
+1. Blog articles listing with category filtering
 <img width="1593" alt="Screenshot 2024-08-21 at 11 47 02 PM" src="https://github.com/user-attachments/assets/64f92f01-ecb7-4637-bb37-67f5a3c33b71">
-
-2. Category Filtering
-<img width="1605" alt="Screenshot 2024-08-21 at 11 47 08 PM" src="https://github.com/user-attachments/assets/cae37f36-04b9-4dad-8aa3-b654c51f2deb">
 <img width="1346" alt="Screenshot 2024-08-21 at 11 47 16 PM" src="https://github.com/user-attachments/assets/d26dd966-2fec-41e4-a47e-df9da10df6c1">
 
-3. Article Publishing
+3. Blog article page
 <img width="1439" alt="Screenshot 2024-08-21 at 11 55 26 PM" src="https://github.com/user-attachments/assets/e25b6f36-889c-4bc9-92f0-c0835c497c31">
 
 ## Git Book like Documentation Screenshots 
