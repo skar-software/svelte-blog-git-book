@@ -2,8 +2,6 @@
 
 Use the project to deploy a blog or git book like documentation component in your website. The content is in Markdown and is rendered to HTML pages using Static Site Generation.
 
-
-
 ## Running the Server in Local using Docker Images
 
 Pull docker image from Docker Hub
@@ -19,6 +17,8 @@ docker run --name blogger -d -p 3000:4173 anonranger/svelte-blogger
 ## Documentation of Folder structure - Guidance on where to add content
 
 **<ins>User Managed Content</ins>**
+
+For blog or documentation component, user to add content and images in the folders below.
 
 **static/content_images/content** - user to add markdown content
 
