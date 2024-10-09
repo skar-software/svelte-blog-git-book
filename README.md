@@ -1,6 +1,6 @@
 # Svelte Blog and Gitbook
 
-Use the project to deploy a blog or git book like documentation component in your website.
+Use the project to deploy a blog or git book like documentation component in your website. The content is in Markdown and is rendered to HTML pages using Static Site Generation.
 
 
 
