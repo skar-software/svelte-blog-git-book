@@ -21,7 +21,11 @@ docker run --name blogger -d -p 3000:4173 anonranger/svelte-blogger
 
 static/blogs/content - user need to add markdown content
 
+static/blogs/content  rename as static/content_images/content 
+
 static/blogs/images - user need to add images
+
+static/blogs/images  rename as static/content_images/images
 
 src/api - static site rendering
 
