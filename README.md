@@ -18,7 +18,7 @@ docker run --name blogger -d -p 3000:4173 anonranger/svelte-blogger
 
 ## Documentation of Folder structure - Guidance on where to add content
 
-**User Managed Content**
+**<ins>User Managed Content</ins>**
 
 **static/content_images/content** - user need to add markdown content
 
@@ -26,7 +26,7 @@ docker run --name blogger -d -p 3000:4173 anonranger/svelte-blogger
 
 **src/stores** - user to manage the mapping of content
 
-**System Files**
+**<ins>System Files</ins>**
 
 src/api - static site rendering
 
