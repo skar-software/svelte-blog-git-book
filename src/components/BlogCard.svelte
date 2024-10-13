@@ -4,9 +4,9 @@
 </script>
 
 <Card>
-  <a class="no-underline" href="blogs/{blog.blogKey}">
+  <a class="no-underline" href="/blogs/{blog.blogKey}">
     <div class="image-container">
-      <img src={`blogs/images/${blog.image}`} alt={blog.label} class="blog-image" />
+      <img src={`/images/${blog.image}`} alt={blog.label} class="blog-image" />
     </div>
     <div class="blog-details">
       <div class="blog-meta">

@@ -1,13 +1,17 @@
 <script lang="ts">
   import BlogStore from '../stores/blogStore';
   import BlogCard from './BlogCard.svelte';
+  import BlogCategories from '../stores/blogCategoryStore';
+  import Tabs from '../shared/Tabs.svelte';
 
-  export let activeCategory;
-
+  let categories = $BlogCategories;
+  let activeCategory = "All";
+  const tabChange = (e) => activeCategory = e.detail;
   $: filteredBlogs = $BlogStore.filter(blog => blog.category === activeCategory || activeCategory === 'All');
 </script>
 
-<div class="blog-list">
+<Tabs activeItem={activeCategory} items={categories} on:tabChange={tabChange} />
+<div class="blog-list p-1">
   {#each filteredBlogs as blog}
     <BlogCard {blog} />
   {/each}

@@ -7,16 +7,16 @@
   export let blog = typeof Blog;
   let content: string;
 
-  onMount(async () => {
+  $: (async () => {
     const resp = await fetchBlog(blog.blogKey + ".md");
     const converter = new Showdown.Converter();
     content = converter.makeHtml(resp.data);
-  });
+  })();
 </script>
 
 <blog class="blog">
   <div class="image-container">
-    <img src={`/blogs/images/${blog.image}`} alt={blog.label} class="blog-image" />
+    <img src={`/images/${blog.image}`} alt={blog.label} class="blog-image" />
   </div>
   <div class="category-container">
     <span class="category">{blog.category}</span>
