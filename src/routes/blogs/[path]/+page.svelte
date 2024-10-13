@@ -4,7 +4,7 @@
   import Blog from '../../../stores/blogStore';
   import { onMount } from 'svelte';
   import BlogDetails from '../../../components/BlogDetails.svelte';
-    import BlogList from '../../../components/BlogList.svelte';
+  import BlogList from '../../../components/BlogList.svelte';
 
   let path = "";
   let blogFound: boolean = false; // Flag to indicate if a blog was found
@@ -14,7 +14,8 @@
 
   $: (async () => {
     path = params.path;
-    console.log(path); 
+    blog = undefined;
+    blogFound = false;
     let blogs;
     blogs = $BlogStore.filter(blog => blog.blogKey === path);
 

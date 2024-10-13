@@ -40,15 +40,15 @@ const BlogStore = writable<Blog[]>([
     label: 'Top 10 JavaScript Frameworks to Learn in 2024',
     publishedDate: 'Jul 30, 2024',
     image: 'image3.jpg',
-    blogKey: 'blogContent',
+    blogKey: 'jsContent',
     category: 'Development'
   },
   {
     id: '5',
-    label: 'The Future of Blockchain Technology',
+    label: 'React Blog',
     publishedDate: 'Aug 10, 2024',
     image: 'image2.jpg',
-    blogKey: 'blogContent',
+    blogKey: 'reactContent',
     category: 'Technology'
   },
   {
@@ -56,7 +56,7 @@ const BlogStore = writable<Blog[]>([
     label: '5 Tips for Better UX Design in 2024',
     publishedDate: 'Jul 25, 2024',
     image: 'image3.jpg',
-    blogKey: 'blogContent',
+    blogKey: 'svelteContent',
     category: 'Design'
   },
   {
@@ -69,10 +69,10 @@ const BlogStore = writable<Blog[]>([
   },
   {
     id: '8',
-    label: 'Why Cloud Computing is the Future of IT',
+    label: 'Tech Reads',
     publishedDate: 'Jul 28, 2024',
     image: 'image3.jpg',
-    blogKey: 'blogContent',
+    blogKey: 'tech',
     category: 'Technology'
   },
   {
