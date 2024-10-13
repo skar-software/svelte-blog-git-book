@@ -4,6 +4,7 @@
   import Blog from '../../../stores/blogStore';
   import { onMount } from 'svelte';
   import BlogDetails from '../../../components/BlogDetails.svelte';
+    import BlogList from '../../../components/BlogList.svelte';
 
   let path = "";
   let blogFound: boolean = false; // Flag to indicate if a blog was found
@@ -11,7 +12,7 @@
 
   $: params = $page.params;
 
-  onMount(async () => {
+  $: (async () => {
     path = params.path;
     console.log(path); 
     let blogs;
@@ -21,11 +22,13 @@
       blogFound = true;
       blog = blogs[0];
     }
-  });
+  })();
 </script>
 
 <blog>
-  {#if blogFound && blog}
+  {#if path == "list"}
+    <BlogList/>
+  {:else if blogFound && blog}
     <BlogDetails {blog}/>
   {:else}
     <div>
