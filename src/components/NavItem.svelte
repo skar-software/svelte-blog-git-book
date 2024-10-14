@@ -36,7 +36,7 @@
         on:click={toggleOpen} 
         aria-expanded={parentItem.is_open}
       >
-        {parentItem.is_open ? '▲' : '▼'}
+        {parentItem.is_open ? '▼' : '▶'}
       </button>
     {/if}
   </div>

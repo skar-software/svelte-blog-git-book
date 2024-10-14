@@ -9,7 +9,7 @@ export type Item = {
 };
 
 const ItemStore = writable<Item[]>([
-  { "item_key": 1, "item_label": "All Blogs", "item_parent": null, "item_ref_key": "list" },
+  { "item_key": 1, "item_label": "Introduction", "item_parent": null, "item_ref_key": "jsContent" },
   { "item_key": 2, "item_label": "Tech Blogs", "item_parent": null, "item_ref_key": "tech" },
   { "item_key": 3, "item_label": "JavaScript", "item_parent": 2, "item_ref_key": "jsContent" },
   { "item_key": 4, "item_label": "React", "item_parent": 2, "item_ref_key": "reactContent" },
@@ -18,7 +18,7 @@ const ItemStore = writable<Item[]>([
   { "item_key": 7, "item_label": "UX Design", "item_parent": 6, "item_ref_key": "uxContent" },
   { "item_key": 8, "item_label": "UI Design", "item_parent": 6, "item_ref_key": "uiContent" },
   { "item_key": 9, "item_label": "Graphic Design", "item_parent": 6, "item_ref_key": "graphicContent" },
-  { "item_key": 10, "item_label": "Parent without Children 1", "item_parent": null, "item_ref_key": "blogContent" },
+  { "item_key": 10, "item_label": "Blogs", "item_parent": null, "item_ref_key": "list" },
   { "item_key": 11, "item_label": "Parent without Children 2", "item_parent": null, "item_ref_key": "parent2" },
   { "item_key": 12, "item_label": "Parent without Children 3", "item_parent": null, "item_ref_key": "parent3" },
   { "item_key": 13, "item_label": "Advanced JavaScript", "item_parent": 3, "item_ref_key": "advancedJS" },  
