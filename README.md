@@ -41,13 +41,20 @@ src/shared - common libraries
 ## Blog Screenshots 
 
 1. Blog articles listing with category filtering
-<img width="1000" alt="Screenshot 2024-08-21 at 11 47 02 PM" src="https://github.com/user-attachments/assets/64f92f01-ecb7-4637-bb37-67f5a3c33b71">
+<img width="500" alt="Screenshot 2024-08-21 at 11 47 02 PM" src="https://github.com/user-attachments/assets/64f92f01-ecb7-4637-bb37-67f5a3c33b71">
 
 2. Blog article page
-<img width="1439" alt="Screenshot 2024-08-21 at 11 55 26 PM" src="https://github.com/user-attachments/assets/e25b6f36-889c-4bc9-92f0-c0835c497c31">
+<img width="500" alt="Screenshot 2024-08-21 at 11 55 26 PM" src="https://github.com/user-attachments/assets/e25b6f36-889c-4bc9-92f0-c0835c497c31">
 
 
 ## Gitbook like Documentation Screenshots 
+
+1. Side Navbar
+<img width="389" alt="Screenshot 2024-10-14 at 9 30 36 PM" src="https://github.com/user-attachments/assets/4a81de0b-f22b-43b3-9ca4-48775b8f62f4">
+
+
+2. Complete page
+<img width="500" alt="Screenshot 2024-10-14 at 9 31 46 PM" src="https://github.com/user-attachments/assets/e230dbf9-a686-47b5-b656-fe239874d4d9">
 
 ## Getting Started with Installation
 
