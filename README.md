@@ -47,7 +47,8 @@ src/shared - common libraries
 2. Blog article page
 <img width="1439" alt="Screenshot 2024-08-21 at 11 55 26 PM" src="https://github.com/user-attachments/assets/e25b6f36-889c-4bc9-92f0-c0835c497c31">
 
-## Git Book like Documentation Screenshots 
+
+## Gitbook like Documentation Screenshots 
 
 ## Getting Started with Installation
 
