@@ -57,7 +57,7 @@
   <div class="flex items-center">
     <button 
       class="flex-grow text-left p-2 focus:outline-none hover:bg-gray-200"
-      class:bg-gray-200={activeItem === parentItem.item_key || activeParents.includes(parentItem.item_key)}
+      class:bg-gray-200={activeItem === parentItem.item_key}
       class:text-blue-700={activeItem === parentItem.item_key || activeParents.includes(parentItem.item_key)}
       class:text-gray-900={!activeItem || (activeItem !== parentItem.item_key && !activeParents.includes(parentItem.item_key))}
       type="button" 
@@ -69,7 +69,7 @@
     {#if childItems.length > 0}
       <button 
         class="p-2 focus:outline-none hover:bg-gray-200"
-        class:bg-gray-200={activeItem === parentItem.item_key || activeParents.includes(parentItem.item_key)}
+        class:bg-gray-200={activeItem === parentItem.item_key}
         type="button" 
         on:click={toggleOpen} 
         aria-expanded={parentItem.is_open}
