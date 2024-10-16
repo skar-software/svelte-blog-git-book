@@ -4,10 +4,10 @@
 </script>
 
 <div class="app flex w-full p-1">
-	<div class="w-1/4">
+	<div class="w-1/5 border-r border-gray-30">
     <NavBar />
   </div>
-	<div class="w-3/4 flex-wrap">
+	<div class="w-4/5 flex-wrap p-1">
 		<main>
 			<slot />
 		</main>

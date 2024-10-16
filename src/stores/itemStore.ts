@@ -9,7 +9,7 @@ export type Item = {
 };
 
 const ItemStore = writable<Item[]>([
-  { "item_key": 1, "item_label": "Introduction", "item_parent": null, "item_ref_key": "jsContent" },
+  { "item_key": 1, "item_label": "Introduction", "item_parent": null, "item_ref_key": "intro" },
   { "item_key": 2, "item_label": "Tech Blogs", "item_parent": null, "item_ref_key": "tech" },
   { "item_key": 3, "item_label": "JavaScript", "item_parent": 2, "item_ref_key": "jsContent" },
   { "item_key": 4, "item_label": "React", "item_parent": 2, "item_ref_key": "reactContent" },
@@ -25,5 +25,10 @@ const ItemStore = writable<Item[]>([
   { "item_key": 14, "item_label": "Hooks in React", "item_parent": 4, "item_ref_key": "reactHooks" },
   { "item_key": 15, "item_label": "Advanced Hooks", "item_parent": 14, "item_ref_key": "advancedHooks" }
 ])
+
+export const activeItemStore = writable<{ activeItem: number, activeParents: number[] }>({
+  activeItem: 1,
+  activeParents: []
+});
 
 export default ItemStore;

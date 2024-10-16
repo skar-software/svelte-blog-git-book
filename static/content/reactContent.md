@@ -1,6 +1,14 @@
-<p>
-  React: Master React with our in-depth articles covering everything from basic components to state management and hooks.
-  Understand how to build scalable, interactive UIs with one of the most popular JavaScript libraries.
-  Whether you're building a small app or a complex web platform, React's flexibility makes it ideal for any project.
-  Get hands-on with real-world examples and step-by-step tutorials.
-</p>
+<div>
+  <h1>React: A Comprehensive Guide for Beginners and Experts</h1>
+  <p>
+    React is one of the most powerful and popular JavaScript libraries for building user interfaces, particularly for single-page applications. Created and maintained by Facebook, React enables developers to create reusable components that manage their own state, leading to cleaner and more modular code.
+  </p>
+  <p>
+    Whether you're just starting out or you're looking to master React, this guide covers everything you need to know — from the fundamentals to advanced patterns and best practices.
+  </p>
+</div>
+
+<div class="md:w-1/2 flex justify-between">
+  <img src="/images/image1.jpg" alt="All Blogs Image" style="width: 30%; margin-right: 20px;">
+  <img src="/images/apie_image1.png" alt="All Blogs Image" style="width: 30%; margin-right: 20px;">
+</div>
